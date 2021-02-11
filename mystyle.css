@@ -1,0 +1,22 @@
+body {
+	background-color: darksalmon;
+	color: black;
+	font-family: helvetica;
+}
+
+h1 {
+	color: purple;
+	font-family: courier;
+	font-size: 50px;
+}
+
+h2 {
+	color: mediumvioletred;
+}
+h3 {
+	color: indianred;
+}
+
+img {
+	border: 6px solid pink;
+}
