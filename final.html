@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<link href="pokestyle.css" rel="stylesheet">
+<head>
+  <title>Terminal Pokémon</title>
+  <meta charset="UTF-8">
+</head>
+<body>
+	<header>
+    <img class="logo" src="images/pokelogo.png" alt="Pokémon logo">
+    <nav>
+      <ul class="nav_links">
+        <li class="navbar"><a href="final.html"><p class="chosen">Program Info</p></a></li>
+        <li class="navbar"><a href="pokepage.html">Playable Pokémon</a></li>
+      </ul>
+    </nav>
+  </header>
+  <h2>Terminal Pokémon</h2>
+  <h3>Ayman Habib, Period 9</h3>
+<ul>
+  <li><h3><a href="pokes.py">Project Link</a></h3></li>
+  <li><h3>Project Description</h3></li>
+  Terminal Pokémon is a terminal, text-based version of the classic Pokémon game. You can play out Pokémon battles between yourself and a computer by typing in which Pokémon you will use and what moves you will play until one side loses all its HP.</li>
+  <li><h3>Instructions</h3></li>
+  Use the project link above to download the Python file (You must have a program that runs Python programs). When you run the program, it will say a wild, randomly generated Pokémon has appeared, and you will then be prompted to select a Pokémon, and then pick your first move against the enemy Pokémon. The program will then return the enemy's Pokémon's current health, the move the enemy Pokémon plays, and how much health the player's Pokémon has remaining. This will continue until either of the Pokémon lose all their health. Depending on which Pokémon wins, the program will have turtles draw out the name of the winning Pokémon. 
+  <li><h3>How it Works</h3></li>
+  The program uses a list of the Pokémon and their HP and movesets coupled with a list of the available moves and their information (the element of the move, how much damage it does, and its accuracy), both saved in a csv file. These csv files are then made into dictionaries. Then, the program randomly selects a Pokémon from the dictionary, which is the enemy Pokémon. The player is then prompted to select a Pokémon to play as, and then prompted to play a move. The program then returns the remaining HP of the enemy Pokémon, the move it plays, and the remaining health of the player's Pokémon. The enemy Pokémon's move is also randomly selected from a dictionary. The player will then select another move to play, and this will repeat until one of the Pokémon lose all their HP. Afterwards, the program will have turtles write out the name of the winning Pokémon.
+  <li><h3>Files</h3></li>
+  <ul>
+    <li>final.html: This html file</li>
+    <li>pokepage.html: The page containing the list of playable Pokémon, their HP, and the available moves. The moves are coupled with how much damage they do, their accuracy, and their type.</li>
+    <li>pokes.py: The main Python program that hosts the Terminal Pokémon game.</li>
+    <li>Pokémon names.csv: A csv file that contains the names of the Pokémon that can be played, their HP, and each Pokémon's moveset.</li>
+    <li>Pokémon moves.csv: A csv file that contains the various moves, what element type they are, how much damage they do, and the accuracy of the move.</li>
+  </ul>
+  <li><h3>Resources</h3></li>
+  <ul>
+    <li><a href="https://pokemondb.net/move/all">Databse of Pokémon moves</a></li>
+    <li><a href="https://www.pokemon.com/us/pokedex/">Official Pokémon website</a> (Database on the Pokémon themselves)</li>
+  </ul>
+  <li><h3>Bugs and Errors to be Aware of</h3></li>
+</ul>
