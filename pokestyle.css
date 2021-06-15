@@ -1,6 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:wght@200;400;800&family=Press+Start+2P&family=Source+Code+Pro:wght@300&display=swap');
+
+body {
+    color:black;
+    padding: 15px 15px 0px 15px;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 18px;
+}
+
+
 .logo {
 	display: block;
     margin-left: auto;
     margin-right: auto;
-	height: 80px;
+	height: 150px;
 }
+
+h1 {
+    color:rgb(50, 75, 189);
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+}
+
+h2 {
+    color:rgb(50, 75, 189);
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    /* border-top: 0px;
+	border-bottom: 2px;
+	border-right: 0px;
+    border-left: 0px;
+	border-style: solid;
+	border-color: rgb(255, 217, 0);
+	margin-bottom: 10px; */
+}
+
+h3 {
+    font-family: 'Grandstander', cursive;
+    color:rgb(50, 75, 189);
+}
+
+.link {
+	font-family: 'Grandstander', cursive;
+    color:rgb(50, 75, 189);
+	font-weight: 800;
+}
+
+ul.main {
+    list-style-image: url('images/pokeball.png');
+    padding-left: 12px;
+    margin-left: 15px;
+    display: block; 
+}
+
+.mainimg {
+	margin-right: 15px;
+}
+
+header {
+    background-color: rgb(255, 217, 0);
+}
+
+.mainp {
+	color: rgb(50, 75, 189);
+	font-family: 'Source Code Pro', monospace;
+    font-size: 18px;
+	text-decoration: underline;
+}
+
+.navbar 
+	li, a, link { 
+		font-family: 'Source Code Pro', monospace;
+		font-weight: 400;
+		font-size: 22px;
+		color: rgb(50, 75, 189); 
+		text-decoration: none;
+		align-items: center;
+		}
+
+.pokeimage {
+    margin-bottom: 5px;
+	border-top: 0px;
+	border-left: 0px;
+	border-bottom: 2px;
+	border-right: 0px;
+	border-style: solid;
+}
+
+.container {
+	display: flex;
+	float: left;
+	align-items: center;
+}
+
+.vertical2 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	align-content: space-around;
+}
+
+.nav__links {
+	list-style: none;
+}
+
+.nav__links li {
+	display: inline;
+	padding: 0px 15px;
+}
+
+.nav__links li a {
+	transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+	color: #16266e;
+}
+
+table {
+	border: 1px solid rgb(50, 75, 189);
+	border-collapse: collapse;
+	align-items: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 50%;
+	margin-left: auto;
+  margin-right: auto;
+  }

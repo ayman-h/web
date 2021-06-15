@@ -1,0 +1,13 @@
+Pokemon_name,type,move_1,move_2,move_3,move_4
+Charmander,Fire,Ember,Scratch,Flamethrower,Slash
+Rapidash,Fire,Ember,Quick Attack,Flame Wheel,Stomp
+Bulbasaur,Grass,Leech Seed,Tackle,Vine Whip,Razor Leaf
+Roselia,Grass,Absorb,Petal Dance,Vine Whip,Razor Leaf
+Squirtle,Water,Bubble,Tail Whip,Water Gun,Skull Bash
+Psyduck,Water,Tail Whip,Water Gun,Hydro Pump,Scratch
+Pikachu,Electric,Thunder Shock,Thunderbolt,Quick Attack,Tail Whip
+Dedenne,Electric,Thunder Shock,Volt Switch,Tackle,Tail Whip
+Geodude,Rock,Rock Throw,Earthquake,Tackle,Stomp
+Onix,Rock,Meteor Beam,Headbutt,Rock Throw,Quick Attack
+Snorlax,Normal,Snore,Tackle,Giga Impact,Stomp
+Bidoof,Normal,Tackle,Headbutt,Skull Bash,Scratch

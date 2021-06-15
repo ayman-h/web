@@ -1,0 +1,28 @@
+Move,Type,Damage,Accuracy
+Ember,Fire,14,100
+Flamethrower,Fire,18,90
+Flame Wheel,Fire,15,95
+Leech Seed,Grass,10,100
+Vine Whip,Grass,16,95
+Razor Leaf,Grass,17,90
+Absorb,Grass,10,100
+Petal Dance,Grass,20,85
+Bubble,Water,14,100
+Water Gun,Water,14,100
+Hydro Pump,Water,22,80
+Thunder Shock,Electric,14,100
+Thunderbolt,Electric,16,95
+Volt Switch,Electric,15,95
+Rock Throw,Rock,18,90
+Meteor Beam,Rock,20,90
+Earthquake,Rock,20,85
+Scratch,Normal,12,100
+Slash,Normal,14,100
+Quick Attack,Normal,12,100
+Stomp,Normal,16,95
+Tackle,Normal,12,100
+Tail Whip,Normal,10,100
+Skull Bash,Normal,20,85
+Headbutt,Normal,16,95
+Snore,Normal,14,100
+Giga Impact,Normal,22,80
