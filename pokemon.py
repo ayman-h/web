@@ -117,19 +117,19 @@ def main():
             wn = turtle.Screen()
             wn.addshape('gif images/' + playerPokemon + '.gif')
             tr.shape('gif images/' + playerPokemon + '.gif')
-            wn.mainloop()
         else: # Current pokemon has fainted 
             print("Your " + playerPokemon + " has fainted!")  
             tr = turtle.Turtle()
             wn = turtle.Screen()
             wn.addshape('gif images/' + foePokemon + '.gif')
             tr.shape('gif images/' + foePokemon + '.gif')
-            wn.mainloop()
         # Prompt user if they want to continue the game
         continueGameAnswer = input("\nDo you want to continue the game?\n \t- Yes\n \t- No\n")
 
         if continueGameAnswer == 'Yes': 
             continueGame = True 
+            wn.reset()
+            wn.clear()
         else: 
             continueGame = False
 
