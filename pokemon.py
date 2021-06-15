@@ -27,7 +27,7 @@ for line in allPokemonFile:
         "move_4": currLine[5]
     }
 
-def attack(attackingPokmon, foePokemon, foePokemonHP, isPlayer):
+def attack(attackingPokmon, foePokemon, foePokemonHP, isPlayer): # attack function (works for both player and foe)
     attackingPokmonMoves = []
     for i in range(1, 5): 
         attackingPokmonMoves.append(allPokemon[attackingPokmon]["move_" + str(i)])
@@ -49,7 +49,7 @@ def attack(attackingPokmon, foePokemon, foePokemonHP, isPlayer):
     if random.randrange(101) > allMoves[choosenMove]["accuracy"]: 
         print(attackingPokmon + "'s attack missed!") 
         return foePokemonHP
-
+    # damage multiplyer according to move type and victim pokemon type
     if (allMoves[choosenMove]["type"] == "Fire") and (allPokemon[foePokemon]["type"] == "Grass"): 
         print("It was super effective!") 
         foePokemonHP -= allMoves[choosenMove]["damage"] * 1.1
@@ -95,7 +95,7 @@ def main():
 
         foeHP = playerHP = 60 
         playerTurn = True 
-
+        # HP tracker
         while (foeHP > 0) and (playerHP > 0): 
             if playerTurn: 
                 foeHP = attack(playerPokemon, foePokemon, foeHP, playerTurn) 
@@ -129,7 +129,7 @@ def main():
         if continueGameAnswer == 'Yes': 
             continueGame = True 
             wn.reset()
-            wn.clear()
+            wn.clear() # resets turte window
         else: 
             continueGame = False
 
